@@ -30,7 +30,7 @@ if not os.path.exists(file_name):
 # Step 3.1.1 Upload a large file (<400 MB)
 
 # folder_id = '%2Fpersonal%2Fekurtoglu_crimson_ua_edu%2FDocuments%2Ftest'
-folder_id = 'FBBB1EF1AC125F00%21442'
+folder_id = 'FBBB1EF1AC125F00%21442'  # drive folder id in the link between id=...&cid
 request_body = {
     'item': {
         'description': 'a large file',
